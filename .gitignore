@@ -8,3 +8,6 @@ __pycache__/
 *.log
 frontend/tsconfig.tsbuildinfo
 frontend/tsconfig.node.tsbuildinfo
+cloudflared.exe
+*.exe
+
