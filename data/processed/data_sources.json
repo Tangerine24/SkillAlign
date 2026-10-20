@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-20T00:00:00Z",
+  "brand": "SkillAlign",
+  "problem_statement": "SIH26246",
+  "state": "Madhya Pradesh",
+  "sources": [
+    {
+      "source_id": "src_ncs_postings",
+      "source_name": "NCS Job Postings & Employer Portal Feed",
+      "publisher": "Ministry of Labour & Employment (National Career Service) + Regional Portals",
+      "refresh_cadence": "Daily stream / Monthly deduplicated rollup",
+      "duplicate_rate": 0.184,
+      "stale_rate": 0.112,
+      "mapping_confidence": 0.91,
+      "real_or_synthetic": "SYNTHETIC_PILOT_FEED",
+      "coverage_notes": "Captures formal online job postings across Indore, Bhopal, Jabalpur, Rewa, and Ujjain; requires PLFS pi_tier adjustment for unorganized/offline hiring."
+    },
+    {
+      "source_id": "src_plfs_benchmark",
+      "source_name": "PLFS District/State Benchmark",
+      "publisher": "MoSPI (Periodic Labour Force Survey \u2014 Madhya Pradesh State & NSSO Region Anchors)",
+      "refresh_cadence": "Quarterly urban / Annual district-cluster benchmark",
+      "duplicate_rate": 0.0,
+      "stale_rate": 0.035,
+      "mapping_confidence": 0.94,
+      "real_or_synthetic": "OBSERVED_PUBLIC_ANCHOR",
+      "coverage_notes": "Anchors the online capture rate (pi_tier) between 0.28 and 0.68 across sectors, plus local alternative/gig reservation wage benchmarks."
+    },
+    {
+      "source_id": "src_dgt_ncvt_mis",
+      "source_name": "DGT NCVT MIS ITI Seat Matrix",
+      "publisher": "Directorate General of Training (DGT), MSDE \u2014 NCVT MIS Portal",
+      "refresh_cadence": "Annual Admission Cycle / Semester Progression",
+      "duplicate_rate": 0.015,
+      "stale_rate": 0.048,
+      "mapping_confidence": 0.98,
+      "real_or_synthetic": "OBSERVED_PUBLIC_ANCHOR",
+      "coverage_notes": "Enforces institutional section-size constraints (20, 24, 40 seats per unit) and reveals ~48% ITI Phantom Capacity (sanctioned seats vs actual active enrolments)."
+    },
+    {
+      "source_id": "src_sidh_pmkvy",
+      "source_name": "SIDH PMKVY Funnel",
+      "publisher": "Skill India Digital Hub (SIDH) & NSDC \u2014 PMKVY 4.0 STT & Bridge Modules",
+      "refresh_cadence": "Monthly Batch Lifecycle Tracking",
+      "duplicate_rate": 0.022,
+      "stale_rate": 0.041,
+      "mapping_confidence": 0.95,
+      "real_or_synthetic": "DERIVED_ESTIMATE",
+      "coverage_notes": "Tracks 6-stage supply conversion funnel from enrolment -> completion -> certification -> placement -> 6-month retention, plus SkillBridge 45-90 day reskilling cohorts."
+    },
+    {
+      "source_id": "src_eshram_context",
+      "source_name": "e-Shram Context & Unorganized Skill Stock",
+      "publisher": "Ministry of Labour & Employment \u2014 e-Shram District Occupation Aggregator",
+      "refresh_cadence": "Monthly Snapshot",
+      "duplicate_rate": 0.064,
+      "stale_rate": 0.089,
+      "mapping_confidence": 0.86,
+      "real_or_synthetic": "DERIVED_ESTIMATE",
+      "coverage_notes": "Provides informal worker density and unplaced/underemployed technician stock priors for Empirical Bayes cluster pooling in sparse districts like Ujjain and Rewa."
+    }
+  ]
+}

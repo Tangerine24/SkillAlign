@@ -1,0 +1,592 @@
+{
+  "generated_at": "2026-10-20T00:00:00Z",
+  "brand": "SkillAlign",
+  "state": "Madhya Pradesh",
+  "occupations": [
+    {
+      "occupation_id": "occ_solar_pv",
+      "occupation_name": "Solar PV Installer (Suryamitra)",
+      "nco_code": "7411.0101",
+      "nsqf_level": 4,
+      "qp_code": "SGJ/Q0101",
+      "sector": "Green Energy & Electrical",
+      "training_scheme": "PMKVY STT: 300 hrs / 3 months",
+      "training_duration_months": 3,
+      "training_hours": 300,
+      "section_size": 20,
+      "last_nsqf_revision_year": 2022,
+      "curriculum_drift_score": 0.34,
+      "unmapped_demand_share_pct": 38.5,
+      "nos_nodes": [
+        {
+          "nos_code": "SGJ/N0101",
+          "nos_title": "Site Survey & Shadow Analysis for Solar PV System",
+          "nsqf_level": 4,
+          "hours": 45,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 88.0
+        },
+        {
+          "nos_code": "SGJ/N0102",
+          "nos_title": "Civil & Mechanical Mounting of Solar PV Modules",
+          "nsqf_level": 4,
+          "hours": 60,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 92.0
+        },
+        {
+          "nos_code": "SGJ/N0103",
+          "nos_title": "DC/AC Electrical Wiring, Earthing & Inverter Termination",
+          "nsqf_level": 4,
+          "hours": 90,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 96.0
+        },
+        {
+          "nos_code": "SGJ/N0104",
+          "nos_title": "Testing, Commissioning & Net-Metering Handover",
+          "nsqf_level": 4,
+          "hours": 60,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 84.0
+        },
+        {
+          "nos_code": "SGJ/N0106",
+          "nos_title": "Electrical Worksite Safety & Working at Heights PPE",
+          "nsqf_level": 4,
+          "hours": 45,
+          "category": "SAFETY_COMPLIANCE",
+          "is_core": true,
+          "demand_frequency_pct": 91.0
+        }
+      ],
+      "emerging_unmapped_skills": [
+        {
+          "skill_id": "em_solar_01",
+          "skill_name": "Bifacial Tracker & 1500V DC String Diagnostics",
+          "occupation_id": "occ_solar_pv",
+          "nco_code": "7411.0101",
+          "posting_mention_growth_yoy_pct": 164.0,
+          "employer_demand_share_pct": 44.2,
+          "current_nsqf_coverage": "UNMAPPED",
+          "recommended_micro_credential": "MC-SGJ-409: High-Voltage 1500V Bifacial & Single-Axis Tracker Commissioning (36 hrs)",
+          "estimated_upskill_hours": 36,
+          "sample_job_snippets": [
+            "[RUMSL 750MW Badwar Ultra-Mega Solar Park, Gurh-Rewa | \u20b919,800\u2013\u20b922,500/mo] Urgent requirement for 35 Suryamitra Lead Installers (SGJ/N0103, SGJ/N0104) trained in 1500V DC bifacial string IV-curve tracing, Fluke PV analyzer diagnostics & single-axis tracker calibration.",
+            "[PM Surya Ghar Vindhya EPC Cluster & Prism Johnson Captive Grid, Rewa/Satna | \u20b918,500\u2013\u20b921,000/mo] Hiring NCVT/PMKVY certified Solar PV Technicians for industrial rooftop string inverter SCADA fault isolation, MC4 crimping & earthing pit testing."
+          ]
+        },
+        {
+          "skill_id": "em_solar_02",
+          "skill_name": "Hybrid BESS (Battery Energy Storage) & Smart Net-Metering Telemetry",
+          "occupation_id": "occ_solar_pv",
+          "nco_code": "7411.0101",
+          "posting_mention_growth_yoy_pct": 128.5,
+          "employer_demand_share_pct": 31.8,
+          "current_nsqf_coverage": "PARTIAL_LEGACY",
+          "recommended_micro_credential": "MC-SGJ-412: LiFePO4 Solar Hybrid Inverter & RMS Dongle Configuration (24 hrs)",
+          "estimated_upskill_hours": 24,
+          "sample_job_snippets": [
+            "[Malwa PM-KUSUM Solar Feeder & Pithampur Industrial Rooftop EPC, Indore/Ujjain | \u20b919,000\u2013\u20b922,000/mo] Solar Hybrid Commissioning Technician needed to configure LiFePO4 BESS racks, RS485/Modbus telemetry dongles & MPPKVVCL bi-directional smart net-meters (SGJ/N0104).",
+            "[Mandideep Industrial Area Solar EPC, Bhopal | \u20b918,200\u2013\u20b920,500/mo] Field Service Technician for 100kWp\u2013500kWp C&I hybrid plants; must hold NSQF Level-4 Suryamitra certification and LOTO safety compliance (SGJ/N0106)."
+          ]
+        }
+      ]
+    },
+    {
+      "occupation_id": "occ_electrician",
+      "occupation_name": "Electrician (General)",
+      "nco_code": "7411.0100",
+      "nsqf_level": 4,
+      "qp_code": "PSS/Q2001",
+      "sector": "Green Energy & Electrical",
+      "training_scheme": "DGT ITI Duration: 24 months, Section Size: 20",
+      "training_duration_months": 24,
+      "training_hours": 2400,
+      "section_size": 20,
+      "last_nsqf_revision_year": 2021,
+      "curriculum_drift_score": 0.29,
+      "unmapped_demand_share_pct": 27.0,
+      "nos_nodes": [
+        {
+          "nos_code": "PSS/N2001",
+          "nos_title": "Single & Three-Phase AC/DC Wiring, Conduit & Switchgear",
+          "nsqf_level": 4,
+          "hours": 600,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 94.0
+        },
+        {
+          "nos_code": "PSS/N2002",
+          "nos_title": "Earthing, Lightning Protection & Megger Insulation Testing",
+          "nsqf_level": 4,
+          "hours": 480,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 89.0
+        },
+        {
+          "nos_code": "PSS/N2003",
+          "nos_title": "Transformer, Induction Motor Winding & Panel Maintenance",
+          "nsqf_level": 4,
+          "hours": 720,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 76.0
+        },
+        {
+          "nos_code": "PSS/N2004",
+          "nos_title": "Electrical Safety, LOTO (Lockout-Tagout) & IE Rules",
+          "nsqf_level": 4,
+          "hours": 600,
+          "category": "SAFETY_COMPLIANCE",
+          "is_core": true,
+          "demand_frequency_pct": 92.0
+        }
+      ],
+      "emerging_unmapped_skills": [
+        {
+          "skill_id": "em_elec_01",
+          "skill_name": "EV AC/DC Fast Charger (EVSE) Installation & Load Balancing",
+          "occupation_id": "occ_electrician",
+          "nco_code": "7411.0100",
+          "posting_mention_growth_yoy_pct": 142.0,
+          "employer_demand_share_pct": 34.5,
+          "current_nsqf_coverage": "UNMAPPED",
+          "recommended_micro_credential": "MC-PSS-405: Commercial EVSE CCS2 Charger Wiring & OCPP Commissioning (30 hrs)",
+          "estimated_upskill_hours": 30,
+          "sample_job_snippets": [
+            "[Indore-Bhopal Expressway & Crystal IT Park EVSE Corridor | \u20b917,500\u2013\u20b921,000/mo] Commercial EV Charging Operator hiring ITI Electricians (PSS/N2001, PSS/N2002) for 60kW/120kW CCS2 DC fast-charger LT panel termination, earth resistance testing (<1 Ohm) & OCPP 1.6J modem setup.",
+            "[BHEL Govindpura Ancillary Cluster & Bagroda ESDM Park, Bhopal | \u20b916,800\u2013\u20b919,500/mo] Industrial Maintenance Electrician required for 11kV/415V switchgear, APFC capacitor banks, Fluke insulation megger diagnostics & LOTO compliance (PSS/N2004)."
+          ]
+        }
+      ]
+    },
+    {
+      "occupation_id": "occ_ev_tech",
+      "occupation_name": "EV Service Lead Technician",
+      "nco_code": "7231.0105",
+      "nsqf_level": 4,
+      "qp_code": "ASC/Q1429",
+      "sector": "Automotive & EV",
+      "training_scheme": "Duration: 12 months / Bridge: 45 days",
+      "training_duration_months": 12,
+      "training_hours": 1200,
+      "section_size": 20,
+      "last_nsqf_revision_year": 2023,
+      "curriculum_drift_score": 0.42,
+      "unmapped_demand_share_pct": 46.8,
+      "nos_nodes": [
+        {
+          "nos_code": "ASC/N1429",
+          "nos_title": "High-Voltage (HV) Traction Battery Pack & BMS Diagnostics",
+          "nsqf_level": 4,
+          "hours": 320,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 95.0
+        },
+        {
+          "nos_code": "ASC/N1430",
+          "nos_title": "BLDC / PMSM Traction Motor & Motor Controller Servicing",
+          "nsqf_level": 4,
+          "hours": 280,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 91.0
+        },
+        {
+          "nos_code": "ASC/N1402",
+          "nos_title": "Vehicle Chassis, Regenerative Braking, Suspension & Steering",
+          "nsqf_level": 4,
+          "hours": 360,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 85.0
+        },
+        {
+          "nos_code": "ASC/N1432",
+          "nos_title": "HV Live-Line Isolation, Arc-Flash PPE & Thermal Runaway Safety",
+          "nsqf_level": 4,
+          "hours": 240,
+          "category": "SAFETY_COMPLIANCE",
+          "is_core": true,
+          "demand_frequency_pct": 97.0
+        }
+      ],
+      "emerging_unmapped_skills": [
+        {
+          "skill_id": "em_ev_01",
+          "skill_name": "CAN-Bus Telemetry Decoding & OTA Firmware Reflashing",
+          "occupation_id": "occ_ev_tech",
+          "nco_code": "7231.0105",
+          "posting_mention_growth_yoy_pct": 188.0,
+          "employer_demand_share_pct": 51.4,
+          "current_nsqf_coverage": "UNMAPPED",
+          "recommended_micro_credential": "MC-ASC-418: Automotive CAN-FD Protocol Analyzers & VCU Telemetry Diagnostics (40 hrs)",
+          "estimated_upskill_hours": 40,
+          "sample_job_snippets": [
+            "[Pithampur Auto & EV SEZ (Sector 1-3) & NATRAX Testing Hub, Indore | \u20b921,500\u2013\u20b924,000/mo] Commercial EV OEM & Fleet Hub hiring EV Service Lead Technicians (ASC/N1429, ASC/N1430) skilled in Peak PCAN-USB CAN-FD frame decoding, VCU OTA firmware flashing & HV interlock loop troubleshooting.",
+            "[AICTSL & Bagroda EV Bus Depot, Bhopal/Indore | \u20b920,500\u2013\u20b923,500/mo] Senior EV Diagnostics Technician required for 9m/12m electric bus traction PMSM motor resolver calibration and high-voltage isolation testing (ASC/N1432)."
+          ]
+        },
+        {
+          "skill_id": "em_ev_02",
+          "skill_name": "LFP Cell-Level Impedance Grading & Liquid Thermal Loop Service",
+          "occupation_id": "occ_ev_tech",
+          "nco_code": "7231.0105",
+          "posting_mention_growth_yoy_pct": 152.0,
+          "employer_demand_share_pct": 39.0,
+          "current_nsqf_coverage": "DRAFT_NOS",
+          "recommended_micro_credential": "MC-ASC-421: Liquid-Cooled HV Battery Chiller & Cell Balancing Workshop (32 hrs)",
+          "estimated_upskill_hours": 32,
+          "sample_job_snippets": [
+            "[Bagroda EV & ESDM Park / Mandideep Industrial Area, Bhopal | \u20b920,000\u2013\u20b923,200/mo] Battery Pack Assembly & Service Technician (ASC/N1429) for AIS-156 Phase-2 LFP battery modules, Hioki BT3562 internal resistance cell grading, active BMS balancing & chiller glycol loop service.",
+            "[Pithampur Sector-2 EV Component Cluster, Indore | \u20b919,800\u2013\u20b922,800/mo] HV Battery QA & Rework Specialist with 1000V CAT-III insulated tool certification and thermal runaway containment protocol training (ASC/N1432)."
+          ]
+        }
+      ]
+    },
+    {
+      "occupation_id": "occ_mmv",
+      "occupation_name": "Mechanic Motor Vehicle (MMV)",
+      "nco_code": "7231.0101",
+      "nsqf_level": 4,
+      "qp_code": "ASC/Q1401",
+      "sector": "Automotive & EV",
+      "training_scheme": "DGT ITI Duration: 24 months, Section Size: 24",
+      "training_duration_months": 24,
+      "training_hours": 2400,
+      "section_size": 24,
+      "last_nsqf_revision_year": 2020,
+      "curriculum_drift_score": 0.37,
+      "unmapped_demand_share_pct": 35.2,
+      "nos_nodes": [
+        {
+          "nos_code": "ASC/N1401",
+          "nos_title": "IC Engine Overhaul, Fuel Injection & Emission Control (BS-VI)",
+          "nsqf_level": 4,
+          "hours": 800,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 72.0
+        },
+        {
+          "nos_code": "ASC/N1402",
+          "nos_title": "Vehicle Chassis, Braking, Suspension, Transmission & Wheel Alignment",
+          "nsqf_level": 4,
+          "hours": 800,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 89.0
+        },
+        {
+          "nos_code": "ASC/N1403",
+          "nos_title": "12V/24V Automotive Wiring Harness, Sensors & OBD-II Scanning",
+          "nsqf_level": 4,
+          "hours": 500,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 91.0
+        },
+        {
+          "nos_code": "ASC/N0003",
+          "nos_title": "Workshop Hydraulic Lift, Pneumatic Tool & Hazardous Fluid Safety",
+          "nsqf_level": 4,
+          "hours": 300,
+          "category": "SAFETY_COMPLIANCE",
+          "is_core": true,
+          "demand_frequency_pct": 87.0
+        }
+      ],
+      "emerging_unmapped_skills": [
+        {
+          "skill_id": "em_mmv_01",
+          "skill_name": "Hybrid-Electric Powertrain & 48V Mild-Hybrid Starter-Generator",
+          "occupation_id": "occ_mmv",
+          "nco_code": "7231.0101",
+          "posting_mention_growth_yoy_pct": 119.0,
+          "employer_demand_share_pct": 33.4,
+          "current_nsqf_coverage": "UNMAPPED",
+          "recommended_micro_credential": "MC-ASC-410: MMV-to-EV 45-Day High-Voltage Transition Bridge (180 hrs)",
+          "estimated_upskill_hours": 180,
+          "sample_job_snippets": [
+            "[Indore Super Corridor & Bhopal LCV/Passenger Dealership Network | \u20b916,500\u2013\u20b919,800/mo] Authorized Multi-Brand Workshop hiring ITI MMV Mechanics (ASC/N1402, ASC/N1403) cross-trained on 48V/72V mild-hybrid starter-generators, OBD-II/CAN scanners & regenerative brake bleeding.",
+            "[Vikram Udyogpuri DMIC Smart Industrial Township, Ujjain | \u20b916,800\u2013\u20b919,200/mo] Senior Fleet Technician for BS-VI SCR/DPF regeneration and EV retrofit chassis/suspension overhaul."
+          ]
+        }
+      ]
+    },
+    {
+      "occupation_id": "occ_cnc_prog",
+      "occupation_name": "CNC Programmer & Setter",
+      "nco_code": "7223.0501",
+      "nsqf_level": 4,
+      "qp_code": "CSC/Q0115",
+      "sector": "Capital Goods & Manufacturing",
+      "training_scheme": "Duration: 12 months, Section Size: 20",
+      "training_duration_months": 12,
+      "training_hours": 1200,
+      "section_size": 20,
+      "last_nsqf_revision_year": 2021,
+      "curriculum_drift_score": 0.39,
+      "unmapped_demand_share_pct": 41.0,
+      "nos_nodes": [
+        {
+          "nos_code": "CSC/N0115",
+          "nos_title": "G-Code / M-Code Part Programming for CNC Turning & VMC Milling",
+          "nsqf_level": 4,
+          "hours": 400,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 94.0
+        },
+        {
+          "nos_code": "CSC/N0116",
+          "nos_title": "Workholding Fixture Setup, Tool Offset Calibration & Zero Setting",
+          "nsqf_level": 4,
+          "hours": 400,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 93.0
+        },
+        {
+          "nos_code": "CSC/N0117",
+          "nos_title": "GD&T Blueprint Reading, CMM & Micrometer Metrology Inspection",
+          "nsqf_level": 4,
+          "hours": 240,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 88.0
+        },
+        {
+          "nos_code": "CSC/N0135",
+          "nos_title": "Machine Guarding, Coolant Handling & Shopfloor 5S Safety",
+          "nsqf_level": 4,
+          "hours": 160,
+          "category": "SAFETY_COMPLIANCE",
+          "is_core": true,
+          "demand_frequency_pct": 85.0
+        }
+      ],
+      "emerging_unmapped_skills": [
+        {
+          "skill_id": "em_cnc_01",
+          "skill_name": "Fanuc/Siemens 5-Axis CAM Post-Processing & Probe In-Cycle Gauging",
+          "occupation_id": "occ_cnc_prog",
+          "nco_code": "7223.0501",
+          "posting_mention_growth_yoy_pct": 146.0,
+          "employer_demand_share_pct": 43.5,
+          "current_nsqf_coverage": "UNMAPPED",
+          "recommended_micro_credential": "MC-CSC-408: Multi-Axis Sinumerik/Fanuc Macro Programming & Renishaw Probing (48 hrs)",
+          "estimated_upskill_hours": 48,
+          "sample_job_snippets": [
+            "[Richhai MSME Engineering Cluster & VFJ/GCF Defence Ancillaries, Jabalpur | \u20b918,500\u2013\u20b923,500/mo] Urgent opening for CNC Setter-Programmer (CSC/N0115, CSC/N0116) on Fanuc 0i-TF & Siemens Sinumerik 828D 4-axis VMC; must perform Renishaw probe in-cycle work-offset calibration & CMM GD&T verification (CSC/N0117).",
+            "[Pithampur Auto & EV SEZ Tier-1 Precision Machining Vendor, Indore | \u20b919,000\u2013\u20b924,000/mo] CNC Turn-Mill Center Programmer required for EV transmission shafts; Mastercam post-processing, tool wear offset compensation & zero-defect SPC charting."
+          ]
+        }
+      ]
+    },
+    {
+      "occupation_id": "occ_data_entry",
+      "occupation_name": "Data Entry Operator / Domestic IT Helpdesk",
+      "nco_code": "4132.0402",
+      "nsqf_level": 3,
+      "qp_code": "SSC/Q2212",
+      "sector": "IT-ITeS & Digital",
+      "training_scheme": "Duration: 6 months, Section Size: 40",
+      "training_duration_months": 6,
+      "training_hours": 600,
+      "section_size": 40,
+      "last_nsqf_revision_year": 2019,
+      "curriculum_drift_score": 0.68,
+      "unmapped_demand_share_pct": 64.0,
+      "nos_nodes": [
+        {
+          "nos_code": "SSC/N3022",
+          "nos_title": "Alphanumeric Keyboarding, Spreadsheet Entry & Document Formatting",
+          "nsqf_level": 3,
+          "hours": 240,
+          "category": "DOMAIN_CORE",
+          "is_core": true,
+          "demand_frequency_pct": 38.0
+        },
+        {
+          "nos_code": "SSC/N0101",
+          "nos_title": "Basic Ticketing Logging & Inbound Customer Query Escalation",
+          "nsqf_level": 3,
+          "hours": 240,
+          "category": "SHARED_FOUNDATION",
+          "is_core": true,
+          "demand_frequency_pct": 52.0
+        },
+        {
+          "nos_code": "SSC/N9001",
+          "nos_title": "Data Privacy, Ergonomics & Digital Workplace Hygiene",
+          "nsqf_level": 3,
+          "hours": 120,
+          "category": "SAFETY_COMPLIANCE",
+          "is_core": true,
+          "demand_frequency_pct": 61.0
+        }
+      ],
+      "emerging_unmapped_skills": [
+        {
+          "skill_id": "em_deo_01",
+          "skill_name": "AI Copilot Ticket Triage, OCR Validation & Cloud ERP Inventory Logging",
+          "occupation_id": "occ_data_entry",
+          "nco_code": "4132.0402",
+          "posting_mention_growth_yoy_pct": 210.0,
+          "employer_demand_share_pct": 66.0,
+          "current_nsqf_coverage": "UNMAPPED",
+          "recommended_micro_credential": "MC-SSC-315: GenAI Helpdesk Copilot, Automated OCR QA & Tally/SAP Shopfloor ERP (45 hrs)",
+          "estimated_upskill_hours": 45,
+          "sample_job_snippets": [
+            "[Crystal IT Park & Super Corridor Tech Hub, Indore | \u20b916,500\u2013\u20b919,500/mo] Digital Operations & ERP Associate (replacing legacy manual Data Entry SSC/N3022) \u2014 must operate SAP S/4HANA / Tally Prime e-waybill reconciliation, automated OCR invoice validation & GenAI CRM ticket triage.",
+            "[Mandideep Industrial Area (HEG & Crompton) Supply Chain Desk, Bhopal | \u20b916,500\u2013\u20b918,800/mo] Shopfloor ERP & Warehouse Inventory Coordinator skilled in barcode/RFID dispatch logging, GST portal reconciliation & automated MIS dashboard reporting."
+          ]
+        }
+      ]
+    }
+  ],
+  "skillbridge_pathways": [
+    {
+      "pathway_id": "sb_elec_to_solar",
+      "source_occupation_id": "occ_electrician",
+      "source_occupation_name": "Electrician (General)",
+      "source_nco_code": "7411.0100",
+      "source_nsqf_level": 4,
+      "target_occupation_id": "occ_solar_pv",
+      "target_occupation_name": "Solar PV Installer (Suryamitra)",
+      "target_nco_code": "7411.0101",
+      "target_nsqf_level": 4,
+      "skill_overlap_pct": 76.0,
+      "shared_skills": [
+        "AC/DC Wiring & Conduit Termination (PSS/N2001 <-> SGJ/N0103)",
+        "Earthing, Lightning Arrester & Megger Testing (PSS/N2002)",
+        "Multimeter, Clamp Meter & Load Calculation",
+        "Electrical LOTO & Worksite Safety Compliance (SGJ/N0106)"
+      ],
+      "missing_skills": [
+        "Solar Site Shadow Analysis & Azimuth/Tilt Survey (SGJ/N0101)",
+        "PV Module Stringing, MC4 Connector Crimping & 1500V DC Safety",
+        "Grid-Tie / Hybrid Inverter Commissioning & Net-Metering Handover"
+      ],
+      "bridge_module_code": "PMKVY-SB-SGJ-401",
+      "bridge_module_name": "Suryamitra Fast-Track Bridge for Certified ITI Electricians",
+      "bridge_duration_days": 90,
+      "bridge_hours": 300,
+      "bridge_cost_per_candidate_inr": 14500,
+      "fresh_training_duration_months": 24,
+      "lead_time_saved_months": 21,
+      "available_donor_pool": 640,
+      "projected_placement_rate": 0.86,
+      "expected_wage_uplift_inr": 4300,
+      "roi_payback_months": 3.4
+    },
+    {
+      "pathway_id": "sb_mmv_to_ev",
+      "source_occupation_id": "occ_mmv",
+      "source_occupation_name": "Mechanic Motor Vehicle (MMV)",
+      "source_nco_code": "7231.0101",
+      "source_nsqf_level": 4,
+      "target_occupation_id": "occ_ev_tech",
+      "target_occupation_name": "EV Service Lead Technician",
+      "target_nco_code": "7231.0105",
+      "target_nsqf_level": 4,
+      "skill_overlap_pct": 72.0,
+      "shared_skills": [
+        "Vehicle Chassis, Suspension, Steering & Braking Systems (ASC/N1402)",
+        "12V/24V Auxiliary Harness, Relays & OBD Diagnostic Tooling (ASC/N1403)",
+        "Hydraulic Bay Lift, Torque Wrench & Workshop Safety Protocols"
+      ],
+      "missing_skills": [
+        "High-Voltage (HV) LFP/NMC Battery Pack Isolation & BMS Cell Balancing (ASC/N1429)",
+        "BLDC / PMSM Traction Motor & Controller Resolver Diagnostics (ASC/N1430)",
+        "CAN-Bus Telemetry Decoding & Thermal Runaway Emergency Protocol (ASC/N1432)"
+      ],
+      "bridge_module_code": "PMKVY-SB-ASC-405",
+      "bridge_module_name": "ICE-to-EV High-Voltage Powertrain & BMS Bridge Module",
+      "bridge_duration_days": 45,
+      "bridge_hours": 180,
+      "bridge_cost_per_candidate_inr": 11800,
+      "fresh_training_duration_months": 24,
+      "lead_time_saved_months": 22.5,
+      "available_donor_pool": 520,
+      "projected_placement_rate": 0.88,
+      "expected_wage_uplift_inr": 6900,
+      "roi_payback_months": 1.8
+    },
+    {
+      "pathway_id": "sb_elec_to_ev",
+      "source_occupation_id": "occ_electrician",
+      "source_occupation_name": "Electrician (General)",
+      "source_nco_code": "7411.0100",
+      "source_nsqf_level": 4,
+      "target_occupation_id": "occ_ev_tech",
+      "target_occupation_name": "EV Service Lead Technician",
+      "target_nco_code": "7231.0105",
+      "target_nsqf_level": 4,
+      "skill_overlap_pct": 64.0,
+      "shared_skills": [
+        "High-Voltage Insulation Testing, Multimeter & Electrical Safety",
+        "Three-Phase Motor Winding Principles & Inverter Power Electronics",
+        "LOTO & Arc-Flash PPE Compliance"
+      ],
+      "missing_skills": [
+        "Automotive Chassis, Regenerative Braking & Transaxle Architecture",
+        "Traction Battery BMS Diagnostics & CAN-Bus Protocol Scanning",
+        "EV Charging Protocol (CCS2 / Bharat DC-001) Vehicle-Side Handshake"
+      ],
+      "bridge_module_code": "PMKVY-SB-ASC-409",
+      "bridge_module_name": "Automotive HV Architecture & EV Diagnostics Bridge for Electricians",
+      "bridge_duration_days": 60,
+      "bridge_hours": 240,
+      "bridge_cost_per_candidate_inr": 13200,
+      "fresh_training_duration_months": 24,
+      "lead_time_saved_months": 22,
+      "available_donor_pool": 410,
+      "projected_placement_rate": 0.81,
+      "expected_wage_uplift_inr": 6600,
+      "roi_payback_months": 2.0
+    },
+    {
+      "pathway_id": "sb_mmv_to_cnc",
+      "source_occupation_id": "occ_mmv",
+      "source_occupation_name": "Mechanic Motor Vehicle (MMV)",
+      "source_nco_code": "7231.0101",
+      "source_nsqf_level": 4,
+      "target_occupation_id": "occ_cnc_prog",
+      "target_occupation_name": "CNC Programmer & Setter",
+      "target_nco_code": "7223.0501",
+      "target_nsqf_level": 4,
+      "skill_overlap_pct": 58.0,
+      "shared_skills": [
+        "Precision Micrometer, Vernier Caliper & Bore Gauge Metrology",
+        "Engineering Drawing Tolerance Reading & Mechanical Fasteners",
+        "Shopfloor 5S, Coolant & Machine Guarding Safety"
+      ],
+      "missing_skills": [
+        "Fanuc/Siemens G-Code & M-Code CNC Turning/VMC Programming",
+        "Workholding Fixture Zero-Setting & Tool Wear Offset Compensation",
+        "GD&T Surface Finish Verification & CAM Post-Processing"
+      ],
+      "bridge_module_code": "PMKVY-SB-CSC-402",
+      "bridge_module_name": "Precision CNC Setting & Fanuc Programming Bridge for Mechanical Trades",
+      "bridge_duration_days": 60,
+      "bridge_hours": 240,
+      "bridge_cost_per_candidate_inr": 13800,
+      "fresh_training_duration_months": 12,
+      "lead_time_saved_months": 10,
+      "available_donor_pool": 310,
+      "projected_placement_rate": 0.79,
+      "expected_wage_uplift_inr": 3800,
+      "roi_payback_months": 3.6
+    }
+  ]
+}
